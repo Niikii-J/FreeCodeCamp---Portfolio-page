@@ -1,0 +1,55 @@
+body {
+  background-color: #111012; 
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+#welcome-section{
+  background: rgb(73,26,107);
+  background: linear-gradient(13deg, rgba(73,26,107,1) 0%, rgba(30,17,45,1) 57%, rgba(21,3,42,1) 98%); 
+}
+
+/*This does not break the exercise*/
+
+#welcome-section, #about, #contact {
+  height: 100vh;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar li {
+  display: block;
+  padding: 20px;
+  float: right;
+  border: 2px solid hsla(0, 0%, 100%, 0.65);
+  background-color: hsla(0, 0%, 19%, 0.51);
+  border-radius: 30px;
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.65);
+}
+
+.project-tile {
+  margin: 200px 0;
+}
+
+
+
+
+@media (max-width: 600px){
+  body {
+    background-color: white;
+  }
+}

@@ -1,12 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black; 
   color: hsla(0, 0%, 100%, 0.8);
+  font-family: 'Tajawal', sans-serif;
+  font-size: 20px; 
+  margin: 0;
+  padding: 0;
+
 }
 
 #welcome-section{
   background: rgb(73,26,107);
 }
-
+/*Remember to put smooth scrolling*/
 #about {
   background: #128259;
 }
@@ -30,6 +39,7 @@ body {
 h1, h2, h3 {
   text-align: center;
   font-size: 40px;
+  font-family: 'Lobster', cursive;
 }
 
 #navbar {
@@ -40,21 +50,60 @@ h1, h2, h3 {
 
 #navbar li {
   display: block;
-  padding: 20px;
+  padding: 15px;
   float: right;
-  border: 2px solid hsla(0, 0%, 100%, 0.65);
-  background-color: hsla(0, 0%, 19%, 0.51);
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
   border-radius: 30px;
   margin: 0 5px;
+  font-size: 19px;
+  }
+
+#navbar li:hover{
+  color: white;
+  background-color: hsla(0, 0%, 19%, 0.8);
+  border: 2px solid hsla(0, 0%, 100%, 0.65);
+}
+
+#social-media {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#social-media li{
+    display: inline;
+}
+
+#selfie {
+  border: 2px solid white;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+#bio-list {
+  text-align: left;
+  max-width: 40%;
 }
 
 a {
   text-decoration: none;
-  color: hsla(0, 0%, 100%, 0.65);
-}
+  color: white;
+  }
 
 .project-tile {
   margin: 200px 0;
+}
+
+.fa {
+  background: white;
+  color: black;
+  padding: 18px;
+  margin: 20px;
+  border-radius: 80px;
+}
+
+.fa:hover {
+    opacity: 0.6;
 }
 
 

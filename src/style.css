@@ -1,3 +1,9 @@
+html, body {
+  height: 100%;
+    margin: 0;
+  
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,13 +12,14 @@ body {
   background-color: black; 
   color: hsla(0, 0%, 100%, 0.8);
   font-family: 'Tajawal', sans-serif;
-  font-size: 20px; 
-  margin: 0;
-  padding: 0;
+  font-size: 25px; 
+
 }
 
 #welcome-section{
-  background: rgb(73,26,107);
+  background-image: linear-gradient(120deg, rgba(32,10,36,0.6), rgba(172,8,182,0.8)), url("https://images.unsplash.com/photo-1603348929190-0257ea827c97?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDd8fGtpdHRlbnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+  background-size: cover;  
 }
 /*Remember to put smooth scrolling*/
 #about {
@@ -29,18 +36,47 @@ body {
 
 /*This does not break the exercise*/
 
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row {
+  border: 1px dotted #0313fc;
+}
+
+.box .row.header {
+  flex: 0 1 auto;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+}
+
+.box .row.footer {
+  flex: 0 1 40px;
+}
+
 #welcome-section, #about, #contact, #projects {
-  height: 100vh;
   text-align: center;
-  padding: 20vh 0 0 0;
+  height: 100vh;
 }
 
 
-h1, h2, h3 {
+
+h1, h2, h3, h4 {
   text-align: center;
   font-size: 40px;
   font-family: 'Lobster', cursive;
+  padding: 120px 0 0 0;
 }
+
+h4 {
+  font-size: 25px;
+  text-align:left;
+ }
 
 #navbar {
   position: fixed;
@@ -83,10 +119,11 @@ h1, h2, h3 {
   border-radius: 100px;
   height: 200px;
   width: 200px;
-  display: block;
+  display: flex;
   margin-left: 30px;
   margin-right: 30px;
   float: left;
+    flex-wrap: wrap;
 }
 
 #bio-list {
@@ -95,10 +132,60 @@ h1, h2, h3 {
   margin-left: 40%;
 }
 
+#question-form{
+  background: black;
+  display: inline-block;
+  justify-content: flex-end;
+
+  text-align: left;
+  padding: 20px;
+  border-radius: 25px;
+  width: 80%;
+}
+
+
+input[type=text],[type=email], textarea{
+  padding: 13px 20px;
+  border-radius: 20px;
+  margin: 0 40px;
+  width: 70%;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 2px solid violet;
+  font-size: 17px;
+  color: #fff;
+  background: black;  
+}
+
+.button:hover {
+  border: 2px solid #fff;
+  background: violet; 
+  color: black;
+  cursor: pointer;
+  }
+
+
+
 a {
   text-decoration: none;
   color: white;
   }
+
+.flex-container-bio{
+    display: flex;
+  justify-content: space-around;
+ }
+
+.flex-container-bio > div{
+width: 300px;
+  margin: 10px;
+  padding: 20px;
+ }
 
 
 .fa {

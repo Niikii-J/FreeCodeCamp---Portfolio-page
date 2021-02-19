@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -27,24 +28,28 @@
         </ul>
       </nav>
       
+      
+    <div class="box">  
       <section id="welcome-section">
         <h1>Hey there, I'm Nikita!</h1>
         <p>A Front-end Web Developer in the making.</p>
       </section>
       
+      
+      
       <section id="projects">
         
         <h2 class="project-tile" id="tribute">Tribute Page: Chris Sean</h2>
-        <a href="https://codepen.io/niikii-j/pen/zYoBExX" target="_blank">Placeholder for github/codepend project.</a>
+        <a href="https://codepen.io/niikii-j/pen/zYoBExX" target="_blank">A tribute page for the person that inspired me to learn coding.</a>
         
         <h2 class="project-tile" id="form">Build a Form</h2>
-        <a href="https://codepen.io/niikii-j/pen/QWGKVyj">Placeholder for github/codepend project.</a>
+        <a href="https://codepen.io/niikii-j/pen/QWGKVyj">A simple form for my favorite collectable... crystals!.</a>
 
         <h2 class="project-tile" id="landing-page">Build a Landing Page</h2>
-        <a href="https://codepen.io/niikii-j/pen/MWbbWYR">Placeholder for github/codepend project.</a>
+        <a href="https://codepen.io/niikii-j/pen/MWbbWYR">I will never admit to my coffee addiction!</a>
 
         <h2 class="project-tile" id="documentation-page">Documentation Page</h2>
-        <a href="https://codepen.io/niikii-j/pen/LYbbdgL">Placeholder for github/codepend project.</a>
+        <a href="https://codepen.io/niikii-j/pen/LYbbdgL">Some principles I keep in mind when making art.</a>
       
       </section>
 
@@ -62,6 +67,33 @@
           <li>Graphic artist with a love for animation and digital art.</li>
         </ul>
         </div>
+        
+        <div class="flex-container-bio">
+          <div>
+          <p>I am a self taught Web Developer from graphic design background. Presently, I am studying Front-end Web Development via FreeCodeCamp and The Odin Project.
+            <br>
+            <br>
+            I also am studying animation for fun, but my main passion is for Software Engineering. The dev's life is challenging, but so rewarding!</p>
+            </div>
+          
+          <div>
+            <p>
+              Tools I currently use:
+
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>Python</li>
+                <li>Git<l/i>
+                <li>Photoshop</li>
+              </ul>
+            </p>
+          </div>
+        
+        </div>
+        
       </section>
       
       
@@ -69,12 +101,7 @@
       <section id="contact">
         <h2>Contact Me</h2>
         <hr>
-        <!-- Use social media icons here -->
-        <p>Send me an email: <a href="mailto:nikita_johnson@hotmail.com"><i class="material-icons">email</i></a><p>
-        
-        <p>Or find me on:</p>
-        
-        <ul id="social-media">
+  <ul id="social-media">
           <li><a id="profile-link" href="https://github.com/Niikii-J" class="fa fa-github" target="_blank"></a></li>     
           <li><a href="https://twitter.com/NueNesta" class="fa fa-twitter" target="_blank"></a></li>
           <li><a href="https://www.freecodecamp.org/nuenesta" class="fa fa-fire" target="_blank"></a></li>
@@ -82,8 +109,35 @@
           <li><a href="https://www.instagram.com/nuenesta/" class="fa fa-instagram" target="_blank"></a></li>
         </ul>
         
+
+        
+        <!-- Maybe make a form box instead -->
+  <form action="mailto:nikita_johnson@hotmail.com" method="get" enctype="text/plain" id="question-form">
+     <h4>Have questions? Ask away</h4>
+
+    <label for="name">Name: </label>
+    <br>
+    <input type="text" id="name" name="tname" placeholder="Your full name.." required>
+    <br>
+    <br>
+    <label for="email">Email: </label>
+    <br>
+    <input type="email" id="email" name="email" placeholder="Example@site.com..." required>
+    <br>
+    <br>
+    <label for="subject">Question:</label>
+    <br>
+    <textarea id="subject" name="subject" placeholder="Questions are welcome!..."></textarea>
+    <br>
+    <br>
+
+    <input type="submit" value="Submit" id="submit" class="button">
+
+  </form>
+        
         
       </section>
+      </div>
       
     </main>
   </body>

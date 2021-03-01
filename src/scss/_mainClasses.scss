@@ -1,0 +1,52 @@
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  .box .row.header {
+    flex: 0 1 auto;
+    .box .row.content {
+      flex: 1 1 auto;
+      .box .row.footer {
+        flex: 0 1 40px;
+      }
+    }
+  }
+}
+
+.button {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 2px solid violet;
+  font-size: 17px;
+  color: #fff;
+  background: black;
+  &:hover {
+    border: 2px solid #fff;
+    background: violet;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.flex-container-bio {
+  display: flex;
+  justify-content: space-around;
+  & > div {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+  }
+}
+
+.fa {
+  background: white;
+  color: black;
+  padding: 18px;
+  margin: 20px;
+  border-radius: 80px;
+  &:hover {
+    opacity: 0.6;
+  }
+}

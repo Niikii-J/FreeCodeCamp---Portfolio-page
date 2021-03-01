@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  html {
+    scroll-behavior: smooth;
+    body {
+      background-color: black;
+      color: hsla(0, 0%, 100%, 0.8);
+      font-family: "Tajawal", sans-serif;
+      font-size: 25px;
+    }
+  }
+}

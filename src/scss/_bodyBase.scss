@@ -1,0 +1,13 @@
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  html {
+    scroll-behavior: smooth;
+    body {
+      background-color: black;
+      color: hsla(0, 0%, 100%, 0.8);
+      padding: 0 25px;
+    }
+  }
+}

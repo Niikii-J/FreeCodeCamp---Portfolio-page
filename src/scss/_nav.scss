@@ -1,0 +1,19 @@
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  li {
+    display: block;
+    padding: 15px;
+    float: right;
+    border: 2px solid hsla(0, 0%, 100%, 0.3);
+    border-radius: 30px;
+    margin: 0 5px;
+    font-size: 19px;
+    &:hover {
+      color: white;
+      background-color: hsla(0, 0%, 19%, 0.8);
+      border: 2px solid hsla(0, 0%, 100%, 0.65);
+    }
+  }
+}

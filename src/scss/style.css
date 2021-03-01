@@ -103,7 +103,10 @@ body html body {
 }
 
 #projects {
-  background: #126082;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#126082d0), to(#12608260)), url("/img/backgrounds/pawel-czerwinski-1CZCGvc_DBQ-unsplash.jpg");
+  background-image: linear-gradient(0deg, #126082d0, #12608260), url("/img/backgrounds/pawel-czerwinski-1CZCGvc_DBQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #contact {
@@ -231,5 +234,10 @@ a {
 a:hover {
   text-decoration: none;
   color: white;
+}
+
+ul.tech {
+  list-style: square outside url("/img/icons/11-118415_check-logo-png-clip-art-royalty-free-stock.png");
+  height: 20px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,23 +4,25 @@
 @import "./sectionIDs";
 
 @mixin flexCenter {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }
 
 * {
   color: white;
+  font-family: "Tajawal", sans-serif;
+  font-size: 25px;
+  text-align: center;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  @include flexCenter();
+  text-align: center;
   font-size: 40px;
   font-family: "Lobster", cursive;
-  color: white;
   h4 {
     font-size: 25px;
     text-align: left;

@@ -31,6 +31,6 @@
 #about,
 #contact,
 #projects {
-  @include flexCenter();
-  height: 100vh;
+  //@include flexCenter();
+  min-height: 100vh;
 }

@@ -25,6 +25,9 @@
     url("/img/backgrounds/pattern2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  a:hover {
+    color: rgb(243, 79, 251);
+  }
 }
 
 #welcome-section,

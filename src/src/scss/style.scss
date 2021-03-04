@@ -1,0 +1,30 @@
+@import "./mainBody";
+@import "./nav";
+@import "./sections";
+
+* {
+  font-size: 23px;
+}
+
+h1 {
+  font-family: "Patua One", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Tajawal", sans-serif;
+  font-size: 40px;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid rgb(17, 202, 156);
+  background-color: rgb(17, 202, 156);
+  color: rgb(3, 51, 39);
+  margin: 10px;
+  padding: 10px 20px;
+  &:hover {
+    color: rgb(99, 245, 208);
+    background-color: rgb(3, 77, 58);
+  }
+}

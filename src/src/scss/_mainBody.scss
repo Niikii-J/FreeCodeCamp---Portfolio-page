@@ -1,0 +1,27 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow: auto;
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background-color: rgb(4, 80, 57);
+}
+
+* {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

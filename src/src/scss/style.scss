@@ -1,8 +1,7 @@
 @import "./mainBody";
 @import "./nav";
 @import "./sections";
-
-* {
+@import "./favIcons" * {
   font-size: 23px;
 }
 
@@ -17,14 +16,16 @@ h2 {
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 15px;
   border: 1px solid rgb(17, 202, 156);
-  background-color: rgb(17, 202, 156);
-  color: rgb(3, 51, 39);
+  color: rgb(99, 245, 208);
+  background-color: rgb(3, 77, 58);
   margin: 10px;
   padding: 10px 20px;
   &:hover {
-    color: rgb(99, 245, 208);
-    background-color: rgb(3, 77, 58);
+    border: 1px solid rgb(182, 255, 237);
+
+    color: rgb(182, 255, 237);
+    background-color: rgb(5, 37, 28);
   }
 }

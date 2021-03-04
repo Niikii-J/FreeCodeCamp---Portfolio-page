@@ -1,0 +1,106 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+html html,
+body html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #045039;
+}
+
+* {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav li {
+  display: block;
+  padding: 15px 20px;
+  float: left;
+  border: 2px solid rgba(255, 255, 255, 0.76);
+  border-radius: 30px;
+  margin: 0 10px;
+  font-size: 15px;
+  background-color: rgba(5, 126, 86, 0.767);
+}
+
+nav li:hover {
+  color: white;
+  background-color: rgba(4, 75, 51, 0.767);
+  border: 2px solid rgba(255, 255, 255, 0.65);
+}
+
+#home,
+#about,
+#services,
+#whatWeDo,
+#FAQs,
+#reviews,
+#contact {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+#home {
+  background-image: linear-gradient(120deg, rgba(7, 104, 66, 0.452), rgba(8, 182, 115, 0.308)), url("../img/home-plant.jpg");
+}
+
+#contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1, 7, 4, 0.883)), to(rgba(3, 75, 41, 0.972))), url("/src/img/stiripe.jpg");
+  background-image: linear-gradient(180deg, rgba(1, 7, 4, 0.883), rgba(3, 75, 41, 0.972)), url("/src/img/stiripe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  font-size: 23px;
+}
+
+h1 {
+  font-family: "Patua One", cursive;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Tajawal", sans-serif;
+  font-size: 40px;
+}
+
+button {
+  border-radius: 15px;
+  border: 1px solid #11ca9c;
+  color: #63f5d0;
+  background-color: #034d3a;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  border: 1px solid #b6ffed;
+  color: #b6ffed;
+  background-color: #05251c;
+}
+/*# sourceMappingURL=style.css.map */

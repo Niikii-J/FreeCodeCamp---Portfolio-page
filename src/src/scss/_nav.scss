@@ -1,0 +1,21 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  li {
+    display: block;
+    padding: 15px 20px;
+    float: left;
+    border: 2px solid hsla(0, 0%, 100%, 0.76);
+    border-radius: 30px;
+    margin: 0 10px;
+    font-size: 15px;
+    background-color: rgba(5, 126, 86, 0.767);
+    &:hover {
+      color: white;
+      background-color: rgba(4, 75, 51, 0.767);
+      border: 2px solid hsla(0, 0%, 100%, 0.65);
+    }
+  }
+}

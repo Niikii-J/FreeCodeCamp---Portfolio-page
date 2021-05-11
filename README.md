@@ -1,2 +1,2 @@
 # FreeCodeCamp---Portfolio-page
-A work in progress of my FCC projects
+Progress of my FCC projects
